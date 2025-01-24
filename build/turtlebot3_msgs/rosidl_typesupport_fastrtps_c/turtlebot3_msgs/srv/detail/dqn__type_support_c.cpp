@@ -84,7 +84,7 @@ static bool _Dqn_Request__cdr_deserialize(
   }
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t get_serialized_size_turtlebot3_msgs__srv__Dqn_Request(
@@ -126,65 +126,36 @@ static uint32_t _Dqn_Request__get_serialized_size(const void * untyped_ros_messa
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__srv__Dqn_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
+  (void)full_bounded;
 
   // member: action
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
   // member: init
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = turtlebot3_msgs__srv__Dqn_Request;
-    is_plain =
-      (
-      offsetof(DataType, init) +
-      last_member_size
-      ) == ret_val;
-  }
-
-  return ret_val;
+  return current_alignment - initial_alignment;
 }
 
-static size_t _Dqn_Request__max_serialized_size(char & bounds_info)
+static size_t _Dqn_Request__max_serialized_size(bool & full_bounded)
 {
-  bool full_bounded;
-  bool is_plain;
-  size_t ret_val;
-
-  ret_val = max_serialized_size_turtlebot3_msgs__srv__Dqn_Request(
-    full_bounded, is_plain, 0);
-
-  bounds_info =
-    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
-    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
-  return ret_val;
+  return max_serialized_size_turtlebot3_msgs__srv__Dqn_Request(
+    full_bounded, 0);
 }
 
 
@@ -308,8 +279,7 @@ static bool _Dqn_Response__cdr_deserialize(
       rosidl_runtime_c__float__Sequence__fini(&ros_message->state);
     }
     if (!rosidl_runtime_c__float__Sequence__init(&ros_message->state, size)) {
-      fprintf(stderr, "failed to create array for field 'state'");
-      return false;
+      return "failed to create array for field 'state'";
     }
     auto array_ptr = ros_message->state.data;
     cdr.deserializeArray(array_ptr, size);
@@ -328,7 +298,7 @@ static bool _Dqn_Response__cdr_deserialize(
   }
 
   return true;
-}  // NOLINT(readability/fn_size)
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t get_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
@@ -381,30 +351,23 @@ static uint32_t _Dqn_Response__get_serialized_size(const void * untyped_ros_mess
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment)
 {
   size_t initial_alignment = current_alignment;
 
   const size_t padding = 4;
   const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
   (void)padding;
   (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
+  (void)full_bounded;
 
   // member: state
   {
     size_t array_size = 0;
     full_bounded = false;
-    is_plain = false;
     current_alignment += padding +
       eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
 
-    last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
@@ -412,7 +375,6 @@ size_t max_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint32_t);
     current_alignment += array_size * sizeof(uint32_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
@@ -420,39 +382,16 @@ size_t max_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
   {
     size_t array_size = 1;
 
-    last_member_size = array_size * sizeof(uint8_t);
     current_alignment += array_size * sizeof(uint8_t);
   }
 
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = turtlebot3_msgs__srv__Dqn_Response;
-    is_plain =
-      (
-      offsetof(DataType, done) +
-      last_member_size
-      ) == ret_val;
-  }
-
-  return ret_val;
+  return current_alignment - initial_alignment;
 }
 
-static size_t _Dqn_Response__max_serialized_size(char & bounds_info)
+static size_t _Dqn_Response__max_serialized_size(bool & full_bounded)
 {
-  bool full_bounded;
-  bool is_plain;
-  size_t ret_val;
-
-  ret_val = max_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
-    full_bounded, is_plain, 0);
-
-  bounds_info =
-    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
-    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
-  return ret_val;
+  return max_serialized_size_turtlebot3_msgs__srv__Dqn_Response(
+    full_bounded, 0);
 }
 
 

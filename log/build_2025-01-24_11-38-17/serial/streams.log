@@ -1,0 +1,35 @@
+[0.030s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.256s] -- The C compiler identification is GNU 9.4.0
+[0.256s] -- The CXX compiler identification is GNU 9.4.0
+[0.257s] -- Check for working C compiler: /usr/bin/cc
+[0.257s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.257s] -- Detecting C compiler ABI info
+[0.310s] -- Detecting C compiler ABI info - done
+[0.328s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.331s] -- Check for working CXX compiler: /usr/bin/c++
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.406s] -- Detecting CXX compiler ABI info
+[0.492s] -- Detecting CXX compiler ABI info - done
+[0.510s] -- Detecting CXX compile features
+[0.511s] -- Detecting CXX compile features - done
+[0.522s] CMake Error at CMakeLists.txt:5 (find_package):
+[0.522s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[0.522s]   asked CMake to find a package configuration file provided by "catkin", but
+[0.522s]   CMake did not find one.
+[0.522s] 
+[0.522s]   Could not find a package configuration file provided by "catkin" with any
+[0.522s]   of the following names:
+[0.522s] 
+[0.523s]     catkinConfig.cmake
+[0.523s]     catkin-config.cmake
+[0.523s] 
+[0.523s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[0.523s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[0.523s]   provides a separate development package or SDK, be sure it has been
+[0.523s]   installed.
+[0.523s] 
+[0.523s] 
+[0.523s] -- Configuring incomplete, errors occurred!
+[0.523s] See also "/home/hyoin/service/build/serial/CMakeFiles/CMakeOutput.log".
+[0.533s] Invoked command in '/home/hyoin/service/build/serial' returned '1': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial

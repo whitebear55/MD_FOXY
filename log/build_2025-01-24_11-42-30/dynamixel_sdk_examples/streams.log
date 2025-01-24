@@ -1,0 +1,52 @@
+[0.042s] Invoking command in '/home/hyoin/service/build/dynamixel_sdk_examples': CMAKE_PREFIX_PATH=/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/dynamixel_sdk_examples LD_LIBRARY_PATH=/home/hyoin/service/install/dynamixel_sdk_custom_interfaces/lib:/home/hyoin/service/install/dynamixel_sdk/lib:/home/hyoin/service/install/turtlebot3_msgs/lib:/home/hyoin/service/install/md/lib:/home/hyoin/service/install/serial/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/hyoin/service/install/dynamixel_sdk_custom_interfaces/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/hyoin/service/src/DynamixelSDK/dynamixel_sdk_examples -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/dynamixel_sdk_examples
+[0.082s] -- The C compiler identification is GNU 9.4.0
+[0.119s] -- The CXX compiler identification is GNU 9.4.0
+[0.125s] -- Check for working C compiler: /usr/bin/cc
+[0.171s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.172s] -- Detecting C compiler ABI info
+[0.218s] -- Detecting C compiler ABI info - done
+[0.226s] -- Detecting C compile features
+[0.226s] -- Detecting C compile features - done
+[0.228s] -- Check for working CXX compiler: /usr/bin/c++
+[0.279s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.280s] -- Detecting CXX compiler ABI info
+[0.331s] -- Detecting CXX compiler ABI info - done
+[0.339s] -- Detecting CXX compile features
+[0.340s] -- Detecting CXX compile features - done
+[0.342s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.366s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.366s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.469s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.485s] -- Found dynamixel_sdk: 3.7.60 (/home/hyoin/service/install/dynamixel_sdk/share/dynamixel_sdk/cmake)
+[0.486s] -- Found dynamixel_sdk_custom_interfaces: 3.7.60 (/home/hyoin/service/install/dynamixel_sdk_custom_interfaces/share/dynamixel_sdk_custom_interfaces/cmake)
+[0.506s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.510s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.562s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.582s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.663s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.693s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.694s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.695s] -- Looking for pthread.h
+[0.741s] -- Looking for pthread.h - found
+[0.741s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.788s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.788s] -- Looking for pthread_create in pthreads
+[0.828s] -- Looking for pthread_create in pthreads - not found
+[0.828s] -- Looking for pthread_create in pthread
+[0.875s] -- Looking for pthread_create in pthread - found
+[0.876s] -- Found Threads: TRUE  
+[0.978s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.029s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.029s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.029s] -- Configured cppcheck include dirs: /home/hyoin/service/src/DynamixelSDK/dynamixel_sdk_examples/include
+[1.029s] -- Configured cppcheck exclude dirs and/or files: 
+[1.030s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.030s] -- Configured cpplint exclude dirs and/or files: 
+[1.030s] -- Added test 'lint_cmake' to check CMake code style
+[1.031s] -- Added test 'uncrustify' to check C / C++ code style
+[1.031s] -- Configured uncrustify additional arguments: 
+[1.032s] -- Added test 'xmllint' to check XML markup files
+[1.034s] -- Configuring done
+[1.038s] -- Generating done
+[1.040s] -- Build files have been written to: /home/hyoin/service/build/dynamixel_sdk_examples

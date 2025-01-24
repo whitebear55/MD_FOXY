@@ -5,11 +5,10 @@
 #ifndef TURTLEBOT3_MSGS__SRV__DETAIL__SOUND__BUILDER_HPP_
 #define TURTLEBOT3_MSGS__SRV__DETAIL__SOUND__BUILDER_HPP_
 
+#include "turtlebot3_msgs/srv/detail/sound__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "turtlebot3_msgs/srv/detail/sound__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace turtlebot3_msgs

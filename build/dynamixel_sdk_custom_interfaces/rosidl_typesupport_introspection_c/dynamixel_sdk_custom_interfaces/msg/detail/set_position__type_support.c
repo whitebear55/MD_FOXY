@@ -17,7 +17,7 @@ extern "C"
 {
 #endif
 
-void dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_init_function(
+void SetPosition__rosidl_typesupport_introspection_c__SetPosition_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -26,12 +26,12 @@ void dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_intro
   dynamixel_sdk_custom_interfaces__msg__SetPosition__init(message_memory);
 }
 
-void dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_fini_function(void * message_memory)
+void SetPosition__rosidl_typesupport_introspection_c__SetPosition_fini_function(void * message_memory)
 {
   dynamixel_sdk_custom_interfaces__msg__SetPosition__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_member_array[2] = {
   {
     "id",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
@@ -45,8 +45,6 @@ static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_in
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -62,38 +60,36 @@ static rosidl_typesupport_introspection_c__MessageMember dynamixel_sdk_custom_in
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_members = {
   "dynamixel_sdk_custom_interfaces__msg",  // message namespace
   "SetPosition",  // message name
   2,  // number of fields
   sizeof(dynamixel_sdk_custom_interfaces__msg__SetPosition),
-  dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_member_array,  // message members
-  dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_init_function,  // function to initialize message memory (memory has to be allocated)
-  dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_fini_function  // function to terminate message instance (will not free memory)
+  SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_member_array,  // message members
+  SetPosition__rosidl_typesupport_introspection_c__SetPosition_init_function,  // function to initialize message memory (memory has to be allocated)
+  SetPosition__rosidl_typesupport_introspection_c__SetPosition_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle = {
+static rosidl_message_type_support_t SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle = {
   0,
-  &dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_members,
+  &SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_dynamixel_sdk_custom_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, dynamixel_sdk_custom_interfaces, msg, SetPosition)() {
-  if (!dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle.typesupport_identifier) {
-    dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle.typesupport_identifier =
+  if (!SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle.typesupport_identifier) {
+    SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &dynamixel_sdk_custom_interfaces__msg__SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle;
+  return &SetPosition__rosidl_typesupport_introspection_c__SetPosition_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

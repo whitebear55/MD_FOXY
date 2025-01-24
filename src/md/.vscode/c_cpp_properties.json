@@ -7,7 +7,7 @@
       },
       "includePath": [
         "/home/oem/ros2_ws/install/include/**",
-        "/opt/ros/humble/include/**",
+        "/opt/ros/foxy/include/**",
         "/home/oem/ros2_ws/src/md/include/**",
         "/usr/include/**"
       ],

@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "turtlebot3_navigation2")
-set(turtlebot3_navigation2_VERSION "2.1.5")
+set(turtlebot3_navigation2_VERSION "2.1.4")
 set(turtlebot3_navigation2_MAINTAINER "Will Son <willson@robotis.com>")
 set(turtlebot3_navigation2_BUILD_DEPENDS )
 set(turtlebot3_navigation2_BUILDTOOL_DEPENDS "ament_cmake")

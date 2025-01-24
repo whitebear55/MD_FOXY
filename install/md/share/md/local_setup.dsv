@@ -1,1 +1,4 @@
-/home/hyoin/service/build/md/ament_cmake_environment_hooks/local_setup.dsv
+source;share/md/environment/ament_prefix_path.sh
+source;share/md/environment/library_path.sh
+source;share/md/environment/path.sh
+source;share/md/environment/pythonpath.sh

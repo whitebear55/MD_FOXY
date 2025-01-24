@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -269,7 +265,7 @@ class SensorState(metaclass=Metaclass_SensorState):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def header(self):
         """Message field 'header'."""
         return self._header
@@ -283,7 +279,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'header' field must be a sub message of type 'Header'"
         self._header = value
 
-    @builtins.property
+    @property
     def bumper(self):
         """Message field 'bumper'."""
         return self._bumper
@@ -298,7 +294,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'bumper' field must be an unsigned integer in [0, 255]"
         self._bumper = value
 
-    @builtins.property
+    @property
     def cliff(self):
         """Message field 'cliff'."""
         return self._cliff
@@ -309,11 +305,9 @@ class SensorState(metaclass=Metaclass_SensorState):
             assert \
                 isinstance(value, float), \
                 "The 'cliff' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'cliff' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._cliff = value
 
-    @builtins.property
+    @property
     def sonar(self):
         """Message field 'sonar'."""
         return self._sonar
@@ -324,11 +318,9 @@ class SensorState(metaclass=Metaclass_SensorState):
             assert \
                 isinstance(value, float), \
                 "The 'sonar' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'sonar' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._sonar = value
 
-    @builtins.property
+    @property
     def illumination(self):
         """Message field 'illumination'."""
         return self._illumination
@@ -339,11 +331,9 @@ class SensorState(metaclass=Metaclass_SensorState):
             assert \
                 isinstance(value, float), \
                 "The 'illumination' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'illumination' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._illumination = value
 
-    @builtins.property
+    @property
     def led(self):
         """Message field 'led'."""
         return self._led
@@ -358,7 +348,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'led' field must be an unsigned integer in [0, 255]"
         self._led = value
 
-    @builtins.property
+    @property
     def button(self):
         """Message field 'button'."""
         return self._button
@@ -373,7 +363,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'button' field must be an unsigned integer in [0, 255]"
         self._button = value
 
-    @builtins.property
+    @property
     def torque(self):
         """Message field 'torque'."""
         return self._torque
@@ -386,7 +376,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'torque' field must be of type 'bool'"
         self._torque = value
 
-    @builtins.property
+    @property
     def left_encoder(self):
         """Message field 'left_encoder'."""
         return self._left_encoder
@@ -401,7 +391,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'left_encoder' field must be an integer in [-2147483648, 2147483647]"
         self._left_encoder = value
 
-    @builtins.property
+    @property
     def right_encoder(self):
         """Message field 'right_encoder'."""
         return self._right_encoder
@@ -416,7 +406,7 @@ class SensorState(metaclass=Metaclass_SensorState):
                 "The 'right_encoder' field must be an integer in [-2147483648, 2147483647]"
         self._right_encoder = value
 
-    @builtins.property
+    @property
     def battery(self):
         """Message field 'battery'."""
         return self._battery
@@ -427,6 +417,4 @@ class SensorState(metaclass=Metaclass_SensorState):
             assert \
                 isinstance(value, float), \
                 "The 'battery' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'battery' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._battery = value

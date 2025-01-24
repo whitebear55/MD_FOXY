@@ -1,0 +1,29 @@
+[0.037s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.268s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.268s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.268s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.268s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.304s] -- Configuring done
+[0.304s] CMake Error at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.304s]   Cannot find source file:
+[0.304s] 
+[0.304s]     test_serial.cpp
+[0.304s] 
+[0.304s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.304s]   .hpp .hxx .in .txx
+[0.304s] Call Stack (most recent call first):
+[0.304s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.304s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.305s]   tests/CMakeLists.txt:6 (ament_add_gtest)
+[0.305s] 
+[0.305s] 
+[0.305s] CMake Error at /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:50 (add_executable):
+[0.305s]   No SOURCES given to target: serial_test
+[0.305s] Call Stack (most recent call first):
+[0.305s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest_executable.cmake:37 (_ament_add_gtest_executable)
+[0.305s]   /opt/ros/foxy/share/ament_cmake_gtest/cmake/ament_add_gtest.cmake:68 (ament_add_gtest_executable)
+[0.305s]   tests/CMakeLists.txt:6 (ament_add_gtest)
+[0.305s] 
+[0.305s] 
+[0.305s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.326s] Invoked command in '/home/hyoin/service/build/serial' returned '1': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial

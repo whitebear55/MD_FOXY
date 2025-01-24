@@ -1,0 +1,5 @@
+CMake Error at tests/CMakeLists.txt:7 (target_link_libraries):
+  Cannot specify link libraries for target "serial-test" which is not built
+  by this project.
+
+

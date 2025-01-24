@@ -1,0 +1,49 @@
+[0.033s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.049s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.067s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.262s] -- Configuring done
+[0.264s] -- Generating done
+[0.273s] -- Build files have been written to: /home/hyoin/service/build/serial
+[0.309s] Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.311s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+[0.336s] [35m[1mScanning dependencies of target serial[0m
+[0.344s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[0.345s] [ 33%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[0.346s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[0.959s] [ 66%] [32m[1mLinking CXX static library libserial.a[0m
+[1.125s] [ 66%] Built target serial
+[1.190s] [35m[1mScanning dependencies of target serial_example[0m
+[1.224s] [ 83%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[1.756s] [100%] [32m[1mLinking CXX executable serial_example[0m
+[1.844s] [100%] Built target serial_example
+[1.859s] Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+[1.860s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --install /home/hyoin/service/build/serial
+[1.874s] -- Install configuration: ""
+[1.874s] -- Installing: /home/hyoin/service/install/serial/lib/libserial.a
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial/impl
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial/impl/win.h
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial/impl/unix.h
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial/v8stdint.h
+[1.874s] -- Installing: /home/hyoin/service/install/serial/include/serial/serial.h
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/library_path.sh
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/library_path.dsv
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/path.sh
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/environment/path.dsv
+[1.875s] -- Installing: /home/hyoin/service/install/serial/share/serial/local_setup.bash
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/serial/local_setup.sh
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/serial/local_setup.zsh
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/serial/local_setup.dsv
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/serial/package.dsv
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/ament_index/resource_index/packages/serial
+[1.881s] -- Installing: /home/hyoin/service/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.882s] -- Installing: /home/hyoin/service/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.882s] -- Installing: /home/hyoin/service/install/serial/share/serial/cmake/serialConfig.cmake
+[1.882s] -- Installing: /home/hyoin/service/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.882s] -- Installing: /home/hyoin/service/install/serial/share/serial/package.xml
+[1.882s] Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --install /home/hyoin/service/build/serial

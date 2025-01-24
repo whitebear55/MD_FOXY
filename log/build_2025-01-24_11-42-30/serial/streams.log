@@ -1,0 +1,21 @@
+[0.033s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.233s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.233s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.233s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.233s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.233s] -- Looking for pthread.h
+[0.284s] -- Looking for pthread.h - found
+[0.284s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.323s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.323s] -- Check if compiler accepts -pthread
+[0.373s] -- Check if compiler accepts -pthread - yes
+[0.374s] -- Found Threads: TRUE  
+[0.374s] CMake Error at tests/CMakeLists.txt:7 (target_link_libraries):
+[0.374s]   Cannot specify link libraries for target "serial-test" which is not built
+[0.374s]   by this project.
+[0.374s] 
+[0.374s] 
+[0.376s] -- Configuring incomplete, errors occurred!
+[0.376s] See also "/home/hyoin/service/build/serial/CMakeFiles/CMakeOutput.log".
+[0.376s] See also "/home/hyoin/service/build/serial/CMakeFiles/CMakeError.log".
+[0.407s] Invoked command in '/home/hyoin/service/build/serial' returned '1': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial

@@ -14,10 +14,14 @@ module turtlebot3_msgs {
       const uint8 BUTTON2 = 5;
     };
     @verbatim (language="comment", text=
-      "CONSTANTS")
+      "#######################################" "\n"
+      " CONSTANTS" "\n"
+      "#######################################")
     struct Sound {
       @verbatim (language="comment", text=
-        "Messages")
+        "#######################################" "\n"
+        " Messages" "\n"
+        "#######################################")
       uint8 value;
     };
   };

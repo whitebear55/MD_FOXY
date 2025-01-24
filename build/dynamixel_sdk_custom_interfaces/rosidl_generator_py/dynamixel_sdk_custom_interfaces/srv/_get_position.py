@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -110,7 +108,7 @@ class GetPosition_Request(metaclass=Metaclass_GetPosition_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property  # noqa: A003
+    @property  # noqa: A003
     def id(self):  # noqa: A003
         """Message field 'id'."""
         return self._id
@@ -127,9 +125,6 @@ class GetPosition_Request(metaclass=Metaclass_GetPosition_Request):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -235,7 +230,7 @@ class GetPosition_Response(metaclass=Metaclass_GetPosition_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def position(self):
         """Message field 'position'."""
         return self._position

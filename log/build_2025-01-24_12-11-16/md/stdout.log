@@ -1,0 +1,17 @@
+[  7%] Built target md__cpp
+[ 11%] Built target md__rosidl_generator_c
+[ 27%] Built target md__rosidl_typesupport_introspection_cpp
+[ 31%] Built target md__rosidl_typesupport_c
+[ 41%] Built target md__rosidl_typesupport_introspection_c
+[ 50%] Built target md__rosidl_typesupport_cpp
+[ 60%] Built target md__rosidl_typesupport_fastrtps_cpp
+[ 62%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o[0m
+[ 76%] Built target md__rosidl_typesupport_fastrtps_c
+[ 76%] Built target md
+[ 78%] Built target md__py
+[ 86%] Built target md__python
+[ 90%] Built target md__rosidl_typesupport_fastrtps_c__pyext
+[ 94%] Built target md__rosidl_typesupport_c__pyext
+[ 98%] Built target md__rosidl_typesupport_introspection_c__pyext

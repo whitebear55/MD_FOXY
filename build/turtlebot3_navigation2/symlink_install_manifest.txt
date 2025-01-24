@@ -1,6 +1,6 @@
 /home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/launch/navigation2.launch.py
-/home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.pgm
-/home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/map.yaml
+/home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.pgm
+/home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/map/turtlebot3_world.yaml
 /home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/burger.yaml
 /home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle.yaml
 /home/hyoin/service/install/turtlebot3_navigation2/share/turtlebot3_navigation2/param/waffle_pi.yaml

@@ -17,10 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in msg/SetPosition in the package dynamixel_sdk_custom_interfaces.
-/**
-  * Messages
- */
+// Struct defined in msg/SetPosition in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__msg__SetPosition
 {
   uint8_t id;

@@ -1,0 +1,25 @@
+make[2]: *** 'md_robot_node'에서 필요한 '/home/hyoin/service/src/md/src/serial/lib/libserial.a' 타겟을 만들 규칙이 없습니다.  멈춤.
+make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/main.hpp:8[m[K,
+                 from [01m[K/home/hyoin/service/src/md/src/md_robot_node/com.cpp:3[m[K:
+[01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+   11 | #include [01;31m[K<serial/serial.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:76: CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o] 오류 1
+In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/robot.hpp:7[m[K,
+                 from [01m[K/home/hyoin/service/src/md/src/md_robot_node/robot.cpp:1[m[K:
+[01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+   11 | #include [01;31m[K<serial/serial.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/main.hpp:8[m[K,
+                 from [01m[K/home/hyoin/service/src/md/src/md_robot_node/main.cpp:2[m[K:
+[01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+   11 | #include [01;31m[K<serial/serial.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:89: CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o] 오류 1
+make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:63: CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

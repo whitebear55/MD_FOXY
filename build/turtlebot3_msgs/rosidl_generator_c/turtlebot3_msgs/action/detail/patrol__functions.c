@@ -201,27 +201,22 @@ turtlebot3_msgs__action__Patrol_Goal__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_Goal);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_Goal * data =
-      (turtlebot3_msgs__action__Patrol_Goal *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_Goal *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_Goal__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_Goal__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_Goal__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_Goal__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -426,27 +421,22 @@ turtlebot3_msgs__action__Patrol_Result__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_Result);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_Result * data =
-      (turtlebot3_msgs__action__Patrol_Result *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_Result *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_Result__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_Result__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_Result__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_Result__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -651,27 +641,22 @@ turtlebot3_msgs__action__Patrol_Feedback__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_Feedback);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_Feedback * data =
-      (turtlebot3_msgs__action__Patrol_Feedback *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_Feedback *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_Feedback__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_Feedback__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_Feedback__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_Feedback__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -913,27 +898,22 @@ turtlebot3_msgs__action__Patrol_SendGoal_Request__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_SendGoal_Request);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_SendGoal_Request * data =
-      (turtlebot3_msgs__action__Patrol_SendGoal_Request *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_SendGoal_Request *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_SendGoal_Request__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_SendGoal_Request__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_SendGoal_Request__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_SendGoal_Request__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -1161,27 +1141,22 @@ turtlebot3_msgs__action__Patrol_SendGoal_Response__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_SendGoal_Response);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_SendGoal_Response * data =
-      (turtlebot3_msgs__action__Patrol_SendGoal_Response *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_SendGoal_Response *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_SendGoal_Response__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_SendGoal_Response__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_SendGoal_Response__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_SendGoal_Response__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -1402,27 +1377,22 @@ turtlebot3_msgs__action__Patrol_GetResult_Request__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_GetResult_Request);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_GetResult_Request * data =
-      (turtlebot3_msgs__action__Patrol_GetResult_Request *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_GetResult_Request *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_GetResult_Request__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_GetResult_Request__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_GetResult_Request__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_GetResult_Request__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -1651,27 +1621,22 @@ turtlebot3_msgs__action__Patrol_GetResult_Response__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_GetResult_Response);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_GetResult_Response * data =
-      (turtlebot3_msgs__action__Patrol_GetResult_Response *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_GetResult_Response *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_GetResult_Response__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_GetResult_Response__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_GetResult_Response__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_GetResult_Response__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -1914,27 +1879,22 @@ turtlebot3_msgs__action__Patrol_FeedbackMessage__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__action__Patrol_FeedbackMessage);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__action__Patrol_FeedbackMessage * data =
-      (turtlebot3_msgs__action__Patrol_FeedbackMessage *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__action__Patrol_FeedbackMessage *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__action__Patrol_FeedbackMessage__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__action__Patrol_FeedbackMessage__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__action__Patrol_FeedbackMessage__fini(&output->data[i]);
+          turtlebot3_msgs__action__Patrol_FeedbackMessage__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

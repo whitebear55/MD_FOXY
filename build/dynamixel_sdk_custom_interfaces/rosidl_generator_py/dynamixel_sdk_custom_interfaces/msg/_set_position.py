@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -116,7 +114,7 @@ class SetPosition(metaclass=Metaclass_SetPosition):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property  # noqa: A003
+    @property  # noqa: A003
     def id(self):  # noqa: A003
         """Message field 'id'."""
         return self._id
@@ -131,7 +129,7 @@ class SetPosition(metaclass=Metaclass_SetPosition):
                 "The 'id' field must be an unsigned integer in [0, 255]"
         self._id = value
 
-    @builtins.property
+    @property
     def position(self):
         """Message field 'position'."""
         return self._position

@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -110,7 +108,7 @@ class Sound_Request(metaclass=Metaclass_Sound_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def value(self):
         """Message field 'value'."""
         return self._value
@@ -127,9 +125,6 @@ class Sound_Request(metaclass=Metaclass_Sound_Request):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -241,7 +236,7 @@ class Sound_Response(metaclass=Metaclass_Sound_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def success(self):
         """Message field 'success'."""
         return self._success
@@ -254,7 +249,7 @@ class Sound_Response(metaclass=Metaclass_Sound_Response):
                 "The 'success' field must be of type 'bool'"
         self._success = value
 
-    @builtins.property
+    @property
     def message(self):
         """Message field 'message'."""
         return self._message

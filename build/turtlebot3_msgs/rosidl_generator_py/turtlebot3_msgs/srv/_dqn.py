@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -116,7 +114,7 @@ class Dqn_Request(metaclass=Metaclass_Dqn_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def action(self):
         """Message field 'action'."""
         return self._action
@@ -131,7 +129,7 @@ class Dqn_Request(metaclass=Metaclass_Dqn_Request):
                 "The 'action' field must be an unsigned integer in [0, 255]"
         self._action = value
 
-    @builtins.property
+    @property
     def init(self):
         """Message field 'init'."""
         return self._init
@@ -149,11 +147,6 @@ class Dqn_Request(metaclass=Metaclass_Dqn_Request):
 
 # Member 'state'
 import array  # noqa: E402, I100
-
-# already imported above
-# import builtins
-
-import math  # noqa: E402, I100
 
 # already imported above
 # import rosidl_parser.definition
@@ -271,7 +264,7 @@ class Dqn_Response(metaclass=Metaclass_Dqn_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def state(self):
         """Message field 'state'."""
         return self._state
@@ -295,11 +288,11 @@ class Dqn_Response(metaclass=Metaclass_Dqn_Response):
                  not isinstance(value, str) and
                  not isinstance(value, UserString) and
                  all(isinstance(v, float) for v in value) and
-                 all(not (val < -3.402823466e+38 or val > 3.402823466e+38) or math.isinf(val) for val in value)), \
-                "The 'state' field must be a set or sequence and each value of type 'float' and each float in [-340282346600000016151267322115014000640.000000, 340282346600000016151267322115014000640.000000]"
+                 True), \
+                "The 'state' field must be a set or sequence and each value of type 'float'"
         self._state = array.array('f', value)
 
-    @builtins.property
+    @property
     def reward(self):
         """Message field 'reward'."""
         return self._reward
@@ -310,11 +303,9 @@ class Dqn_Response(metaclass=Metaclass_Dqn_Response):
             assert \
                 isinstance(value, float), \
                 "The 'reward' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'reward' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._reward = value
 
-    @builtins.property
+    @property
     def done(self):
         """Message field 'done'."""
         return self._done

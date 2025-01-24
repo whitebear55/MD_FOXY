@@ -5,14 +5,13 @@
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__STRUCT_HPP_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -60,30 +59,30 @@ struct VersionInfo_
 
   // field types and members
   using _hardware_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _hardware_type hardware;
   using _firmware_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _firmware_type firmware;
   using _software_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _software_type software;
 
   // setters for named parameter idiom
   Type & set__hardware(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->hardware = _arg;
     return *this;
   }
   Type & set__firmware(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->firmware = _arg;
     return *this;
   }
   Type & set__software(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->software = _arg;
     return *this;

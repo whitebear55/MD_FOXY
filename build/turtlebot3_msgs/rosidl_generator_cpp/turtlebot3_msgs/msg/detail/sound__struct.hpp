@@ -5,14 +5,13 @@
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__SOUND__STRUCT_HPP_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__SOUND__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -146,21 +145,12 @@ using Sound =
   turtlebot3_msgs::msg::Sound_<std::allocator<void>>;
 
 // constant definitions
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::OFF;
-#endif  // __cplusplus < 201703L
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::ON;
-#endif  // __cplusplus < 201703L
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::LOW_BATTERY;
-#endif  // __cplusplus < 201703L
 // guard against 'ERROR' being predefined by MSVC by temporarily undefining it
 #if defined(_WIN32)
 #  if defined(ERROR)
@@ -168,25 +158,16 @@ constexpr uint8_t Sound_<ContainerAllocator>::LOW_BATTERY;
 #    undef ERROR
 #  endif
 #endif
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::ERROR;
-#endif  // __cplusplus < 201703L
 #if defined(_WIN32)
 #  pragma warning(suppress : 4602)
 #  pragma pop_macro("ERROR")
 #endif
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::BUTTON1;
-#endif  // __cplusplus < 201703L
-#if __cplusplus < 201703L
-// static constexpr member variable definitions are only needed in C++14 and below, deprecated in C++17
 template<typename ContainerAllocator>
 constexpr uint8_t Sound_<ContainerAllocator>::BUTTON2;
-#endif  // __cplusplus < 201703L
 
 }  // namespace msg
 

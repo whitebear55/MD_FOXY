@@ -1,0 +1,54 @@
+[0.059s] Invoking command in '/home/hyoin/service/build/md': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8
+[0.077s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.091s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.091s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.200s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.204s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.232s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.324s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.359s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.360s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.459s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.497s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.520s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[0.569s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[0.616s] -- Found serial: 1.2.1 (/home/hyoin/service/install/serial/share/serial/cmake)
+[0.617s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.639s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.767s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.931s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.001s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.017s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[1.018s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[1.031s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.031s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[1.031s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[1.079s] -- Configuring done
+[1.116s] -- Generating done
+[1.131s] -- Build files have been written to: /home/hyoin/service/build/md
+[1.157s] [  1%] Built target md__cpp
+[1.158s] [ 11%] Built target md__rosidl_generator_c
+[1.174s] [ 21%] Built target md__rosidl_typesupport_introspection_cpp
+[1.174s] [ 31%] Built target md__rosidl_typesupport_introspection_c
+[1.174s] [ 41%] Built target md__rosidl_typesupport_cpp
+[1.175s] [ 50%] Built target md__rosidl_typesupport_fastrtps_cpp
+[1.177s] [ 60%] Built target md__rosidl_typesupport_c
+[1.184s] [35m[1mScanning dependencies of target md_robot_node[0m
+[1.193s] [ 70%] Built target md__rosidl_typesupport_fastrtps_c
+[1.199s] [ 72%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o[0m
+[1.199s] [ 74%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o[0m
+[1.200s] [ 76%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o[0m
+[1.207s] [ 76%] Built target md
+[1.221s] [ 78%] Built target md__py
+[1.240s] [ 86%] Built target md__python
+[1.261s] [ 90%] Built target md__rosidl_typesupport_introspection_c__pyext
+[1.264s] [ 94%] Built target md__rosidl_typesupport_c__pyext
+[1.265s] [ 98%] Built target md__rosidl_typesupport_fastrtps_c__pyext
+[5.882s] [100%] [32m[1mLinking CXX executable md_robot_node[0m
+[5.997s] /usr/bin/ld: cannot find -lserial
+[6.005s] collect2: error: ld returned 1 exit status
+[6.006s] make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:209: md_robot_node] 오류 1
+[6.006s] make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+[6.006s] make: *** [Makefile:141: all] 오류 2
+[6.007s] Invoked command in '/home/hyoin/service/build/md' returned '2': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8

@@ -5,14 +5,13 @@
 #ifndef TURTLEBOT3_MSGS__SRV__DETAIL__SOUND__STRUCT_HPP_
 #define TURTLEBOT3_MSGS__SRV__DETAIL__SOUND__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -173,7 +172,7 @@ struct Sound_Response_
     bool;
   _success_type success;
   using _message_type =
-    std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>>;
+    std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other>;
   _message_type message;
 
   // setters for named parameter idiom
@@ -184,7 +183,7 @@ struct Sound_Response_
     return *this;
   }
   Type & set__message(
-    const std::basic_string<char, std::char_traits<char>, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<char>> & _arg)
+    const std::basic_string<char, std::char_traits<char>, typename ContainerAllocator::template rebind<char>::other> & _arg)
   {
     this->message = _arg;
     return *this;

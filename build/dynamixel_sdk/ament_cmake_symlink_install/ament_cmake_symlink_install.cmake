@@ -316,8 +316,8 @@ ament_cmake_symlink_install_directory("/home/hyoin/service/src/DynamixelSDK/dyna
 # install("TARGETS" "dynamixel_sdk" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/home/hyoin/service/build/dynamixel_sdk/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/foxy/lib/python3.8/site-packages/ament_package/template/environment_hook/library_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/library_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
@@ -328,14 +328,14 @@ ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixe
 # install(FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/dynamixel_sdk" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
-ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
+ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/dynamixel_sdk/environment")
 
 # install(FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk" FILES "/home/hyoin/service/build/dynamixel_sdk/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/dynamixel_sdk/environment")

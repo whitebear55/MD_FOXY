@@ -5,8 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -122,7 +120,7 @@ class VersionInfo(metaclass=Metaclass_VersionInfo):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def hardware(self):
         """Message field 'hardware'."""
         return self._hardware
@@ -135,7 +133,7 @@ class VersionInfo(metaclass=Metaclass_VersionInfo):
                 "The 'hardware' field must be of type 'str'"
         self._hardware = value
 
-    @builtins.property
+    @property
     def firmware(self):
         """Message field 'firmware'."""
         return self._firmware
@@ -148,7 +146,7 @@ class VersionInfo(metaclass=Metaclass_VersionInfo):
                 "The 'firmware' field must be of type 'str'"
         self._firmware = value
 
-    @builtins.property
+    @property
     def software(self):
         """Message field 'software'."""
         return self._software

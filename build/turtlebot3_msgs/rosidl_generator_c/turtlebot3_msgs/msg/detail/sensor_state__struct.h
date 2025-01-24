@@ -30,36 +30,24 @@ enum
 };
 
 /// Constant 'CLIFF'.
-/**
-  * Cliff sensor states (states are combined, when multiple cliff sensors are triggered)
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__CLIFF = 1
 };
 
 /// Constant 'SONAR'.
-/**
-  * Sonar sensor states (states are combined, when multiple sonar sensors are triggered)
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__SONAR = 1
 };
 
 /// Constant 'ILLUMINATION'.
-/**
-  * Illumination sensor (states are combined, when multiple illumination sensors are triggered)
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__ILLUMINATION = 1
 };
 
 /// Constant 'BUTTON0'.
-/**
-  * Button states (states are combined, when multiple buttons are pressed)
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__BUTTON0 = 1
@@ -72,9 +60,6 @@ enum
 };
 
 /// Constant 'ERROR_LEFT_MOTOR'.
-/**
-  * Motor errors
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__ERROR_LEFT_MOTOR = 1
@@ -87,9 +72,6 @@ enum
 };
 
 /// Constant 'TORQUE_ON'.
-/**
-  * Motor torque
- */
 enum
 {
   turtlebot3_msgs__msg__SensorState__TORQUE_ON = 1
@@ -105,15 +87,9 @@ enum
 // Member 'header'
 #include "std_msgs/msg/detail/header__struct.h"
 
-/// Struct defined in msg/SensorState in the package turtlebot3_msgs.
-/**
-  * CONSTANTS
-  *
-  * Bumper states (states are combined, when multiple bumpers are pressed)
- */
+// Struct defined in msg/SensorState in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__msg__SensorState
 {
-  /// Messages
   std_msgs__msg__Header header;
   uint8_t bumper;
   float cliff;
@@ -122,9 +98,7 @@ typedef struct turtlebot3_msgs__msg__SensorState
   uint8_t led;
   uint8_t button;
   bool torque;
-  /// (-2,147,483,648 ~ 2,147,483,647)
   int32_t left_encoder;
-  /// (-2,147,483,648 ~ 2,147,483,647)
   int32_t right_encoder;
   float battery;
 } turtlebot3_msgs__msg__SensorState;

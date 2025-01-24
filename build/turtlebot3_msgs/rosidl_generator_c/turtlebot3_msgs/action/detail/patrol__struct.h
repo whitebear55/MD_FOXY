@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_Goal
 {
   float radius;
@@ -36,7 +36,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Goal__Sequence
 
 // Constants defined in the message
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_Result
 {
   bool success;
@@ -55,7 +55,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Result__Sequence
 
 // Constants defined in the message
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_Feedback
 {
   float left_time;
@@ -80,7 +80,7 @@ typedef struct turtlebot3_msgs__action__Patrol_Feedback__Sequence
 // Member 'goal'
 #include "turtlebot3_msgs/action/detail/patrol__struct.h"
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Request
 {
   unique_identifier_msgs__msg__UUID goal_id;
@@ -104,7 +104,7 @@ typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Request__Sequence
 // Member 'stamp'
 #include "builtin_interfaces/msg/detail/time__struct.h"
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Response
 {
   bool accepted;
@@ -129,7 +129,7 @@ typedef struct turtlebot3_msgs__action__Patrol_SendGoal_Response__Sequence
 // already included above
 // #include "unique_identifier_msgs/msg/detail/uuid__struct.h"
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_GetResult_Request
 {
   unique_identifier_msgs__msg__UUID goal_id;
@@ -153,7 +153,7 @@ typedef struct turtlebot3_msgs__action__Patrol_GetResult_Request__Sequence
 // already included above
 // #include "turtlebot3_msgs/action/detail/patrol__struct.h"
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_GetResult_Response
 {
   int8_t status;
@@ -181,7 +181,7 @@ typedef struct turtlebot3_msgs__action__Patrol_GetResult_Response__Sequence
 // already included above
 // #include "turtlebot3_msgs/action/detail/patrol__struct.h"
 
-/// Struct defined in action/Patrol in the package turtlebot3_msgs.
+// Struct defined in action/Patrol in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__action__Patrol_FeedbackMessage
 {
   unique_identifier_msgs__msg__UUID goal_id;

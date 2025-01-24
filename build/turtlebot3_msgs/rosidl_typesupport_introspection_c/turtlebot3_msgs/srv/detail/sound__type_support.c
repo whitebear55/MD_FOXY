@@ -17,7 +17,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_init_function(
+void Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -26,12 +26,12 @@ void turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__So
   turtlebot3_msgs__srv__Sound_Request__init(message_memory);
 }
 
-void turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_fini_function(void * message_memory)
+void Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_fini_function(void * message_memory)
 {
   turtlebot3_msgs__srv__Sound_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_member_array[1] = {
   {
     "value",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
@@ -45,38 +45,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__S
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_members = {
   "turtlebot3_msgs__srv",  // message namespace
   "Sound_Request",  // message name
   1,  // number of fields
   sizeof(turtlebot3_msgs__srv__Sound_Request),
-  turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_member_array,  // message members
-  turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_fini_function  // function to terminate message instance (will not free memory)
+  Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_member_array,  // message members
+  Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle = {
+static rosidl_message_type_support_t Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_members,
+  &Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, srv, Sound_Request)() {
-  if (!turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle.typesupport_identifier =
+  if (!Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle.typesupport_identifier) {
+    Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__srv__Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle;
+  return &Sound_Request__rosidl_typesupport_introspection_c__Sound_Request_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -109,7 +107,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_init_function(
+void Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -118,12 +116,12 @@ void turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__S
   turtlebot3_msgs__srv__Sound_Response__init(message_memory);
 }
 
-void turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_fini_function(void * message_memory)
+void Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_fini_function(void * message_memory)
 {
   turtlebot3_msgs__srv__Sound_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_member_array[2] = {
   {
     "success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -137,8 +135,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__S
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -154,38 +150,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__S
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_members = {
   "turtlebot3_msgs__srv",  // message namespace
   "Sound_Response",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__srv__Sound_Response),
-  turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_member_array,  // message members
-  turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_fini_function  // function to terminate message instance (will not free memory)
+  Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_member_array,  // message members
+  Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle = {
+static rosidl_message_type_support_t Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_members,
+  &Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, srv, Sound_Response)() {
-  if (!turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle.typesupport_identifier =
+  if (!Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle.typesupport_identifier) {
+    Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__srv__Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle;
+  return &Sound_Response__rosidl_typesupport_introspection_c__Sound_Response_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

@@ -5,11 +5,10 @@
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__BUILDER_HPP_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__MSG__DETAIL__SET_POSITION__BUILDER_HPP_
 
+#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace dynamixel_sdk_custom_interfaces

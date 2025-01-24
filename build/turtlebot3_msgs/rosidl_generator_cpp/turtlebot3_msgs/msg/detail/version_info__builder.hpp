@@ -5,11 +5,10 @@
 #ifndef TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__BUILDER_HPP_
 #define TURTLEBOT3_MSGS__MSG__DETAIL__VERSION_INFO__BUILDER_HPP_
 
+#include "turtlebot3_msgs/msg/detail/version_info__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "turtlebot3_msgs/msg/detail/version_info__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace turtlebot3_msgs

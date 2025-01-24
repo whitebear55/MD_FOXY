@@ -200,27 +200,22 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Request);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     dynamixel_sdk_custom_interfaces__srv__GetPosition_Request * data =
-      (dynamixel_sdk_custom_interfaces__srv__GetPosition_Request *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (dynamixel_sdk_custom_interfaces__srv__GetPosition_Request *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__fini(&output->data[i]);
+          dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;
@@ -425,27 +420,22 @@ dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(dynamixel_sdk_custom_interfaces__srv__GetPosition_Response);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     dynamixel_sdk_custom_interfaces__srv__GetPosition_Response * data =
-      (dynamixel_sdk_custom_interfaces__srv__GetPosition_Response *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (dynamixel_sdk_custom_interfaces__srv__GetPosition_Response *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__fini(&output->data[i]);
+          dynamixel_sdk_custom_interfaces__srv__GetPosition_Response__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

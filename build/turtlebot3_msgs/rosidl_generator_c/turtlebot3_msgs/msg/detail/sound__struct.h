@@ -53,13 +53,9 @@ enum
   turtlebot3_msgs__msg__Sound__BUTTON2 = 5
 };
 
-/// Struct defined in msg/Sound in the package turtlebot3_msgs.
-/**
-  * CONSTANTS
- */
+// Struct defined in msg/Sound in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__msg__Sound
 {
-  /// Messages
   uint8_t value;
 } turtlebot3_msgs__msg__Sound;
 

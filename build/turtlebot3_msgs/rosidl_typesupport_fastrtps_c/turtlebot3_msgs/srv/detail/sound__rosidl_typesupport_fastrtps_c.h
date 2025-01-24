@@ -23,7 +23,6 @@ size_t get_serialized_size_turtlebot3_msgs__srv__Sound_Request(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__srv__Sound_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -56,7 +55,6 @@ size_t get_serialized_size_turtlebot3_msgs__srv__Sound_Response(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__srv__Sound_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs

@@ -1,0 +1,4 @@
+make[2]: *** 'md_robot_node'에서 필요한 '/home/hyoin/service/src/md/src/serial/lib/libserial.a' 타겟을 만들 규칙이 없습니다.  멈춤.
+make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

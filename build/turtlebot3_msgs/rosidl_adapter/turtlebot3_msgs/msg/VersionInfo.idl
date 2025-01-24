@@ -6,18 +6,20 @@
 module turtlebot3_msgs {
   module msg {
     @verbatim (language="comment", text=
-      "Messages")
+      "#######################################" "\n"
+      " Messages" "\n"
+      "#######################################")
     struct VersionInfo {
       @verbatim (language="comment", text=
-        "<yyyy>.<mm>.<dd>        : hardware version of Turtlebot3 (ex. 2017.05.23)")
+        " <yyyy>.<mm>.<dd>        : hardware version of Turtlebot3 (ex. 2017.05.23)")
       string hardware;
 
       @verbatim (language="comment", text=
-        "<major>.<minor>.<patch> : firmware version of OpenCR")
+        " <major>.<minor>.<patch> : firmware version of OpenCR")
       string firmware;
 
       @verbatim (language="comment", text=
-        "<major>.<minor>.<patch> : software version of Turtlebot3 ROS packages")
+        " <major>.<minor>.<patch> : software version of Turtlebot3 ROS packages")
       string software;
     };
   };

@@ -1,0 +1,12 @@
+[0.033s] Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+[0.227s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.227s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.227s] -- Found ament_cmake_gtest: 0.9.12 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.227s] -- Configuring incomplete, errors occurred!
+[0.227s] See also "/home/hyoin/service/build/serial/CMakeFiles/CMakeOutput.log".
+[0.227s] CMake Error at tests/CMakeLists.txt:2 (catkin_add_gtest):
+[0.227s]   Unknown CMake command "catkin_add_gtest".
+[0.227s] 
+[0.227s] 
+[0.257s] Invoked command in '/home/hyoin/service/build/serial' returned '1': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial

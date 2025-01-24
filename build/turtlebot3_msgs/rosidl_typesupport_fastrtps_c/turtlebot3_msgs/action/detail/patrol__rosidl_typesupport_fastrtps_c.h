@@ -23,7 +23,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_Goal(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_Goal(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -56,7 +55,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_Result(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_Result(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -89,7 +87,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_Feedback(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_Feedback(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -122,7 +119,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_SendGoal_Request(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_SendGoal_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -155,7 +151,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_SendGoal_Response(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_SendGoal_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -207,7 +202,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_GetResult_Request(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_GetResult_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -240,7 +234,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_GetResult_Response(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_GetResult_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
@@ -293,7 +286,6 @@ size_t get_serialized_size_turtlebot3_msgs__action__Patrol_FeedbackMessage(
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs
 size_t max_serialized_size_turtlebot3_msgs__action__Patrol_FeedbackMessage(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_turtlebot3_msgs

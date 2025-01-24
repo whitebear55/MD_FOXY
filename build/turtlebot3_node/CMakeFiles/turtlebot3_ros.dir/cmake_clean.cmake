@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o"
-  "CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o.d"
   "turtlebot3_ros"
   "turtlebot3_ros.pdb"
 )

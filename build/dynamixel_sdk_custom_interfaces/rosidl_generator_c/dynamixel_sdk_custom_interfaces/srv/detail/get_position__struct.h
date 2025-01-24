@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
+// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Request
 {
   uint8_t id;
@@ -36,7 +36,7 @@ typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Request__Sequen
 
 // Constants defined in the message
 
-/// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
+// Struct defined in srv/GetPosition in the package dynamixel_sdk_custom_interfaces.
 typedef struct dynamixel_sdk_custom_interfaces__srv__GetPosition_Response
 {
   int32_t position;

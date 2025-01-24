@@ -6,18 +6,18 @@
 module turtlebot3_msgs {
   module action {
     @verbatim (language="comment", text=
-      "Goal")
+      " Goal")
     struct Patrol_Goal {
       float radius;
     };
-    @verbatim (language="comment", text=
-      "Result")
     struct Patrol_Result {
+      @verbatim (language="comment", text=
+        " Result")
       boolean success;
     };
-    @verbatim (language="comment", text=
-      "Feedback")
     struct Patrol_Feedback {
+      @verbatim (language="comment", text=
+        " Feedback")
       float left_time;
     };
   };

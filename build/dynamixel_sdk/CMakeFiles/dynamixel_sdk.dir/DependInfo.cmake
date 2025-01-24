@@ -1,22 +1,29 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
+  )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_write.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/packet_handler.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/port_handler.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/port_handler_linux.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/protocol1_packet_handler.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o"
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/protocol2_packet_handler.cpp" "/home/hyoin/service/build/dynamixel_sdk/CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
+
+# Preprocessor definitions for this target.
+set(CMAKE_TARGET_DEFINITIONS_CXX
+  "dynamixel_sdk_EXPORTS"
   )
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_read.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_read.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_bulk_write.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_bulk_write.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_read.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_read.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/group_sync_write.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/group_sync_write.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/packet_handler.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/packet_handler.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/port_handler.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/port_handler_linux.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/port_handler_linux.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/protocol1_packet_handler.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol1_packet_handler.cpp.o.d"
-  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/src/dynamixel_sdk/protocol2_packet_handler.cpp" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o" "gcc" "CMakeFiles/dynamixel_sdk.dir/src/dynamixel_sdk/protocol2_packet_handler.cpp.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hyoin/service/src/DynamixelSDK/dynamixel_sdk/include/dynamixel_sdk"
   )
 
 # Targets to which this target links.

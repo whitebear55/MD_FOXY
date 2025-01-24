@@ -23,17 +23,11 @@ extern "C"
 // Member 'software'
 #include "rosidl_runtime_c/string.h"
 
-/// Struct defined in msg/VersionInfo in the package turtlebot3_msgs.
-/**
-  * Messages
- */
+// Struct defined in msg/VersionInfo in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__msg__VersionInfo
 {
-  /// <yyyy>.<mm>.<dd>        : hardware version of Turtlebot3 (ex. 2017.05.23)
   rosidl_runtime_c__String hardware;
-  /// <major>.<minor>.<patch> : firmware version of OpenCR
   rosidl_runtime_c__String firmware;
-  /// <major>.<minor>.<patch> : software version of Turtlebot3 ROS packages
   rosidl_runtime_c__String software;
 } turtlebot3_msgs__msg__VersionInfo;
 

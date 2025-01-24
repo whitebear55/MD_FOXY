@@ -4,8 +4,8 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
+#include "dynamixel_sdk_custom_interfaces/msg/rosidl_typesupport_c__visibility_control.h"
 #include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__struct.h"
-#include "dynamixel_sdk_custom_interfaces/msg/detail/set_position__type_support.h"
 #include "rosidl_typesupport_c/identifier.h"
 #include "rosidl_typesupport_c/message_type_support_dispatch.h"
 #include "rosidl_typesupport_c/type_support_map.h"
@@ -85,6 +85,7 @@ extern "C"
 {
 #endif
 
+ROSIDL_TYPESUPPORT_C_EXPORT_dynamixel_sdk_custom_interfaces
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_c, dynamixel_sdk_custom_interfaces, msg, SetPosition)() {
   return &::dynamixel_sdk_custom_interfaces::msg::rosidl_typesupport_c::SetPosition_message_type_support_handle;

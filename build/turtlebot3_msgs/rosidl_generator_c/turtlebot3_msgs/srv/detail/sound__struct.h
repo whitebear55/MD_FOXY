@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in srv/Sound in the package turtlebot3_msgs.
+// Struct defined in srv/Sound in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__srv__Sound_Request
 {
   uint8_t value;
@@ -40,7 +40,7 @@ typedef struct turtlebot3_msgs__srv__Sound_Request__Sequence
 // Member 'message'
 #include "rosidl_runtime_c/string.h"
 
-/// Struct defined in srv/Sound in the package turtlebot3_msgs.
+// Struct defined in srv/Sound in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__srv__Sound_Response
 {
   bool success;

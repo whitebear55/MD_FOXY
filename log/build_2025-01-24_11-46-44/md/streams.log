@@ -1,0 +1,144 @@
+[0.018s] Invoking command in '/home/hyoin/service/build/md': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake /home/hyoin/service/src/md -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/md
+[0.221s] -- The C compiler identification is GNU 9.4.0
+[0.385s] -- The CXX compiler identification is GNU 9.4.0
+[0.390s] -- Check for working C compiler: /usr/bin/cc
+[0.672s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.673s] -- Detecting C compiler ABI info
+[1.003s] -- Detecting C compiler ABI info - done
+[1.034s] -- Detecting C compile features
+[1.034s] -- Detecting C compile features - done
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++
+[1.361s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.363s] -- Detecting CXX compiler ABI info
+[1.675s] -- Detecting CXX compiler ABI info - done
+[1.688s] -- Detecting CXX compile features
+[1.689s] -- Detecting CXX compile features - done
+[1.707s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.756s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.006s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.031s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[2.085s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.093s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.539s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.601s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.802s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.805s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.806s] -- Looking for pthread.h
+[2.883s] -- Looking for pthread.h - found
+[2.884s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.961s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.961s] -- Looking for pthread_create in pthreads
+[3.024s] -- Looking for pthread_create in pthreads - not found
+[3.024s] -- Looking for pthread_create in pthread
+[3.098s] -- Looking for pthread_create in pthread - found
+[3.099s] -- Found Threads: TRUE  
+[3.296s] -- Found rclcpp_components: 2.4.3 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[3.344s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.369s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[3.420s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.472s] -- Found serial: 1.2.1 (/home/hyoin/service/install/serial/share/serial/cmake)
+[3.474s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[3.497s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[3.686s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[3.916s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.995s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.014s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[4.016s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[4.035s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[4.035s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.035s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[4.035s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[4.050s] -- Found PythonExtra: .so  
+[4.123s] -- Configuring done
+[4.166s] -- Generating done
+[4.182s] -- Build files have been written to: /home/hyoin/service/build/md
+[4.189s] Invoked command in '/home/hyoin/service/build/md' returned '0': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake /home/hyoin/service/src/md -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/md
+[4.190s] Invoking command in '/home/hyoin/service/build/md': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8
+[4.221s] [35m[1mScanning dependencies of target md__cpp[0m
+[4.225s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.230s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.531s] [35m[1mScanning dependencies of target md__rosidl_generator_c[0m
+[4.542s] [  5%] [32mBuilding C object CMakeFiles/md__rosidl_generator_c.dir/rosidl_generator_c/md/msg/detail/md_robot_msg1__functions.c.o[0m
+[4.545s] [  7%] [32mBuilding C object CMakeFiles/md__rosidl_generator_c.dir/rosidl_generator_c/md/msg/detail/md_robot_msg2__functions.c.o[0m
+[4.551s] [  9%] [32mBuilding C object CMakeFiles/md__rosidl_generator_c.dir/rosidl_generator_c/md/msg/detail/pose__functions.c.o[0m
+[4.634s] [ 11%] [32m[1mLinking C shared library libmd__rosidl_generator_c.so[0m
+[4.675s] [ 11%] Built target md__rosidl_generator_c
+[4.686s] [ 13%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.688s] [ 15%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.691s] [ 15%] Built target md__cpp
+[4.703s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.712s] [ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.727s] [ 21%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.088s] [35m[1mScanning dependencies of target md__rosidl_typesupport_c[0m
+[5.094s] [35m[1mScanning dependencies of target md__rosidl_typesupport_introspection_c[0m
+[5.102s] [35m[1mScanning dependencies of target md__rosidl_typesupport_cpp[0m
+[5.110s] [ 23%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/md/msg/detail/md_robot_msg1__type_support.c.o[0m
+[5.118s] [ 25%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_c.dir/rosidl_typesupport_c/md/msg/md_robot_msg2__type_support.cpp.o[0m
+[5.121s] [ 27%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_c.dir/rosidl_typesupport_c/md/msg/pose__type_support.cpp.o[0m
+[5.124s] [ 29%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_c.dir/rosidl_typesupport_c/md/msg/md_robot_msg1__type_support.cpp.o[0m
+[5.134s] [ 31%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/md/msg/detail/md_robot_msg2__type_support.c.o[0m
+[5.135s] [ 33%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/md/msg/md_robot_msg1__type_support.cpp.o[0m
+[5.172s] [ 35%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/md/msg/detail/pose__type_support.c.o[0m
+[5.198s] [ 37%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/md/msg/md_robot_msg2__type_support.cpp.o[0m
+[5.207s] [ 39%] [32m[1mLinking CXX shared library libmd__rosidl_typesupport_c.so[0m
+[5.215s] [ 41%] [32m[1mLinking C shared library libmd__rosidl_typesupport_introspection_c.so[0m
+[5.216s] [35m[1mScanning dependencies of target md__rosidl_typesupport_introspection_cpp[0m
+[5.227s] [ 43%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/md/msg/pose__type_support.cpp.o[0m
+[5.232s] [35m[1mScanning dependencies of target md__rosidl_typesupport_fastrtps_cpp[0m
+[5.235s] [ 45%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/md/msg/detail/md_robot_msg1__type_support.cpp.o[0m
+[5.245s] [ 47%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/md/msg/detail/md_robot_msg2__type_support.cpp.o[0m
+[5.265s] [ 47%] Built target md__rosidl_typesupport_c
+[5.289s] [ 49%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/md/msg/detail/dds_fastrtps/md_robot_msg1__type_support.cpp.o[0m
+[5.297s] [ 49%] Built target md__rosidl_typesupport_introspection_c
+[5.325s] [ 50%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/md/msg/detail/pose__type_support.cpp.o[0m
+[5.353s] [ 52%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/md/msg/detail/dds_fastrtps/md_robot_msg2__type_support.cpp.o[0m
+[5.546s] [ 54%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/md/msg/detail/dds_fastrtps/pose__type_support.cpp.o[0m
+[5.618s] [ 56%] [32m[1mLinking CXX shared library libmd__rosidl_typesupport_cpp.so[0m
+[5.668s] [ 56%] Built target md__rosidl_typesupport_cpp
+[5.679s] [35m[1mScanning dependencies of target md_robot_node[0m
+[5.741s] [ 58%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o[0m
+[5.744s] [ 60%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o[0m
+[5.761s] [ 62%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o[0m
+[5.800s] [ 64%] [32m[1mLinking CXX shared library libmd__rosidl_typesupport_introspection_cpp.so[0m
+[5.847s] [ 64%] Built target md__rosidl_typesupport_introspection_cpp
+[6.063s] [ 66%] [32m[1mLinking CXX shared library libmd__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.162s] [ 66%] Built target md__rosidl_typesupport_fastrtps_cpp
+[6.174s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.576s] [35m[1mScanning dependencies of target md__rosidl_typesupport_fastrtps_c[0m
+[6.594s] [ 70%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/md/msg/detail/md_robot_msg2__type_support_c.cpp.o[0m
+[6.594s] [ 72%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/md/msg/detail/md_robot_msg1__type_support_c.cpp.o[0m
+[6.598s] [ 74%] [32mBuilding CXX object CMakeFiles/md__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/md/msg/detail/pose__type_support_c.cpp.o[0m
+[6.990s] [ 76%] [32m[1mLinking CXX shared library libmd__rosidl_typesupport_fastrtps_c.so[0m
+[7.089s] [ 76%] Built target md__rosidl_typesupport_fastrtps_c
+[7.099s] [35m[1mScanning dependencies of target md[0m
+[7.111s] [ 76%] Built target md
+[7.122s] [35m[1mScanning dependencies of target md__py[0m
+[7.130s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.561s] [ 78%] Built target md__py
+[7.569s] [35m[1mScanning dependencies of target md__python[0m
+[7.583s] [ 80%] [32mBuilding C object CMakeFiles/md__python.dir/rosidl_generator_py/md/msg/_md_robot_msg2_s.c.o[0m
+[7.584s] [ 82%] [32mBuilding C object CMakeFiles/md__python.dir/rosidl_generator_py/md/msg/_pose_s.c.o[0m
+[7.584s] [ 84%] [32mBuilding C object CMakeFiles/md__python.dir/rosidl_generator_py/md/msg/_md_robot_msg1_s.c.o[0m
+[7.678s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/md/libmd__python.so[0m
+[7.709s] [ 86%] Built target md__python
+[7.716s] [35m[1mScanning dependencies of target md__rosidl_typesupport_introspection_c__pyext[0m
+[7.716s] [35m[1mScanning dependencies of target md__rosidl_typesupport_fastrtps_c__pyext[0m
+[7.718s] [35m[1mScanning dependencies of target md__rosidl_typesupport_c__pyext[0m
+[7.729s] [ 88%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/md/_md_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.731s] [ 90%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/md/_md_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.732s] [ 92%] [32mBuilding C object CMakeFiles/md__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/md/_md_s.ep.rosidl_typesupport_c.c.o[0m
+[7.788s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/md/md_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.815s] [ 94%] Built target md__rosidl_typesupport_introspection_c__pyext
+[7.825s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/md/md_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.825s] [ 98%] [32m[1mLinking CXX shared library rosidl_generator_py/md/md_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[7.851s] [ 98%] Built target md__rosidl_typesupport_c__pyext
+[7.872s] [ 98%] Built target md__rosidl_typesupport_fastrtps_c__pyext
+[11.399s] [100%] [32m[1mLinking CXX executable md_robot_node[0m
+[11.516s] /usr/bin/ld: cannot find -lserial
+[11.516s] collect2: error: ld returned 1 exit status
+[11.517s] make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:209: md_robot_node] 오류 1
+[11.517s] make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+[11.517s] make: *** [Makefile:141: all] 오류 2
+[11.519s] Invoked command in '/home/hyoin/service/build/md' returned '2': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8

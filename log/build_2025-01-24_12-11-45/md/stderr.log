@@ -1,0 +1,5 @@
+/usr/bin/ld: cannot find -lserial
+collect2: error: ld returned 1 exit status
+make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:209: md_robot_node] 오류 1
+make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+make: *** [Makefile:141: all] 오류 2

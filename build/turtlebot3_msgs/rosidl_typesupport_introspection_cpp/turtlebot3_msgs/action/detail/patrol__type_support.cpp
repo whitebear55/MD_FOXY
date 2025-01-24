@@ -51,8 +51,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_Goal_m
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -170,8 +168,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_Result
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -289,8 +285,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_Feedba
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -408,8 +402,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_SendGo
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -425,8 +417,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_SendGo
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -544,8 +534,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_SendGo
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -561,8 +549,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_SendGo
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -788,8 +774,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_GetRes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -907,8 +891,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_GetRes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -924,8 +906,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_GetRes
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };
@@ -1155,8 +1135,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_Feedba
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   },
   {
@@ -1172,8 +1150,6 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember Patrol_Feedba
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
-    nullptr,  // fetch(index, &value) function pointer
-    nullptr,  // assign(index, value) function pointer
     nullptr  // resize(index) function pointer
   }
 };

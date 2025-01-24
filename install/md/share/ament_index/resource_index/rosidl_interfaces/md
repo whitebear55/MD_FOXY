@@ -1,1 +1,6 @@
-/home/hyoin/service/build/md/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/md
+msg/MdRobotMsg1.idl
+msg/MdRobotMsg1.msg
+msg/MdRobotMsg2.idl
+msg/MdRobotMsg2.msg
+msg/Pose.idl
+msg/Pose.msg

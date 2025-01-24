@@ -1,0 +1,44 @@
+[0.026s] Invoking command in '/home/hyoin/service/build/md': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8
+[0.067s] [  7%] Built target md__cpp
+[0.068s] [ 11%] Built target md__rosidl_generator_c
+[0.090s] [ 27%] Built target md__rosidl_typesupport_introspection_cpp
+[0.090s] [ 31%] Built target md__rosidl_typesupport_c
+[0.093s] [ 41%] Built target md__rosidl_typesupport_introspection_c
+[0.094s] [ 50%] Built target md__rosidl_typesupport_cpp
+[0.101s] [ 60%] Built target md__rosidl_typesupport_fastrtps_cpp
+[0.113s] make[2]: *** 'md_robot_node'에서 필요한 '/home/hyoin/service/src/md/src/serial/lib/libserial.a' 타겟을 만들 규칙이 없습니다.  멈춤.
+[0.113s] make[2]: *** 끝나지 않은 작업을 기다리고 있습니다....
+[0.118s] [ 62%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o[0m
+[0.119s] [ 64%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o[0m
+[0.119s] [ 66%] [32mBuilding CXX object CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o[0m
+[0.122s] [ 76%] Built target md__rosidl_typesupport_fastrtps_c
+[0.139s] [ 76%] Built target md
+[0.154s] [ 78%] Built target md__py
+[0.172s] [ 86%] Built target md__python
+[0.196s] [ 90%] Built target md__rosidl_typesupport_fastrtps_c__pyext
+[0.198s] [ 94%] Built target md__rosidl_typesupport_c__pyext
+[0.206s] [ 98%] Built target md__rosidl_typesupport_introspection_c__pyext
+[0.211s] In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/main.hpp:8[m[K,
+[0.211s]                  from [01m[K/home/hyoin/service/src/md/src/md_robot_node/com.cpp:3[m[K:
+[0.211s] [01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+[0.211s]    11 | #include [01;31m[K<serial/serial.h>[m[K
+[0.211s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.211s] compilation terminated.
+[0.213s] make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:76: CMakeFiles/md_robot_node.dir/src/md_robot_node/com.cpp.o] 오류 1
+[0.242s] In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/robot.hpp:7[m[K,
+[0.242s]                  from [01m[K/home/hyoin/service/src/md/src/md_robot_node/robot.cpp:1[m[K:
+[0.242s] [01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+[0.242s]    11 | #include [01;31m[K<serial/serial.h>[m[K
+[0.242s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.242s] compilation terminated.
+[0.242s] In file included from [01m[K/home/hyoin/service/src/md/include/md_robot_node/main.hpp:8[m[K,
+[0.243s]                  from [01m[K/home/hyoin/service/src/md/src/md_robot_node/main.cpp:2[m[K:
+[0.243s] [01m[K/home/hyoin/service/src/md/include/md_robot_node/global.hpp:11:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: 그런 파일이나 디렉터리가 없습니다
+[0.243s]    11 | #include [01;31m[K<serial/serial.h>[m[K
+[0.243s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[0.243s] compilation terminated.
+[0.244s] make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:89: CMakeFiles/md_robot_node.dir/src/md_robot_node/robot.cpp.o] 오류 1
+[0.244s] make[2]: *** [CMakeFiles/md_robot_node.dir/build.make:63: CMakeFiles/md_robot_node.dir/src/md_robot_node/main.cpp.o] 오류 1
+[0.244s] make[1]: *** [CMakeFiles/Makefile2:298: CMakeFiles/md_robot_node.dir/all] 오류 2
+[0.244s] make: *** [Makefile:141: all] 오류 2
+[0.246s] Invoked command in '/home/hyoin/service/build/md' returned '2': CMAKE_PREFIX_PATH=/home/hyoin/service/install/turtlebot3_teleop:/home/hyoin/service/install/turtlebot3_example:/opt/ros/foxy:/home/hyoin/service/install/serial:/home/hyoin/service/install/turtlebot3:/home/hyoin/service/install/turtlebot3_bringup:/home/hyoin/service/install/turtlebot3_node:/home/hyoin/service/install/turtlebot3_navigation2:/home/hyoin/service/install/turtlebot3_msgs:/home/hyoin/service/install/turtlebot3_description:/home/hyoin/service/install/turtlebot3_cartographer:/home/hyoin/service/install/md:/home/hyoin/service/install/dynamixel_sdk_examples:/home/hyoin/service/install/dynamixel_sdk_custom_interfaces:/home/hyoin/service/install/dynamixel_sdk PKG_CONFIG_PATH=/home/hyoin/service/install/serial/lib/x86_64-linux-gnu/pkgconfig:/home/hyoin/service/install/serial/lib/pkgconfig ROS_PACKAGE_PATH=/home/hyoin/service/install/serial/share /usr/bin/cmake --build /home/hyoin/service/build/md -- -j8 -l8

@@ -5,14 +5,13 @@
 #ifndef TURTLEBOT3_MSGS__SRV__DETAIL__DQN__STRUCT_HPP_
 #define TURTLEBOT3_MSGS__SRV__DETAIL__DQN__STRUCT_HPP_
 
+#include <rosidl_runtime_cpp/bounded_vector.hpp>
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <array>
 #include <memory>
 #include <string>
 #include <vector>
-
-#include "rosidl_runtime_cpp/bounded_vector.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 #ifndef _WIN32
@@ -184,7 +183,7 @@ struct Dqn_Response_
 
   // field types and members
   using _state_type =
-    std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>>;
+    std::vector<float, typename ContainerAllocator::template rebind<float>::other>;
   _state_type state;
   using _reward_type =
     float;
@@ -195,7 +194,7 @@ struct Dqn_Response_
 
   // setters for named parameter idiom
   Type & set__state(
-    const std::vector<float, typename std::allocator_traits<ContainerAllocator>::template rebind_alloc<float>> & _arg)
+    const std::vector<float, typename ContainerAllocator::template rebind<float>::other> & _arg)
   {
     this->state = _arg;
     return *this;

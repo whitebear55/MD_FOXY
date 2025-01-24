@@ -5,10 +5,6 @@
 
 # Import statements for member types
 
-import builtins  # noqa: E402, I100
-
-import math  # noqa: E402, I100
-
 import rosidl_parser.definition  # noqa: E402, I100
 
 
@@ -112,7 +108,7 @@ class Patrol_Goal(metaclass=Metaclass_Patrol_Goal):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def radius(self):
         """Message field 'radius'."""
         return self._radius
@@ -123,15 +119,10 @@ class Patrol_Goal(metaclass=Metaclass_Patrol_Goal):
             assert \
                 isinstance(value, float), \
                 "The 'radius' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'radius' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._radius = value
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -237,7 +228,7 @@ class Patrol_Result(metaclass=Metaclass_Patrol_Result):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def success(self):
         """Message field 'success'."""
         return self._success
@@ -252,12 +243,6 @@ class Patrol_Result(metaclass=Metaclass_Patrol_Result):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
-
-# already imported above
-# import math
 
 # already imported above
 # import rosidl_parser.definition
@@ -363,7 +348,7 @@ class Patrol_Feedback(metaclass=Metaclass_Patrol_Feedback):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def left_time(self):
         """Message field 'left_time'."""
         return self._left_time
@@ -374,15 +359,10 @@ class Patrol_Feedback(metaclass=Metaclass_Patrol_Feedback):
             assert \
                 isinstance(value, float), \
                 "The 'left_time' field must be of type 'float'"
-            assert not (value < -3.402823466e+38 or value > 3.402823466e+38) or math.isinf(value), \
-                "The 'left_time' field must be a float in [-3.402823466e+38, 3.402823466e+38]"
         self._left_time = value
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -504,7 +484,7 @@ class Patrol_SendGoal_Request(metaclass=Metaclass_Patrol_SendGoal_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
@@ -518,7 +498,7 @@ class Patrol_SendGoal_Request(metaclass=Metaclass_Patrol_SendGoal_Request):
                 "The 'goal_id' field must be a sub message of type 'UUID'"
         self._goal_id = value
 
-    @builtins.property
+    @property
     def goal(self):
         """Message field 'goal'."""
         return self._goal
@@ -534,9 +514,6 @@ class Patrol_SendGoal_Request(metaclass=Metaclass_Patrol_SendGoal_Request):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -653,7 +630,7 @@ class Patrol_SendGoal_Response(metaclass=Metaclass_Patrol_SendGoal_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def accepted(self):
         """Message field 'accepted'."""
         return self._accepted
@@ -666,7 +643,7 @@ class Patrol_SendGoal_Response(metaclass=Metaclass_Patrol_SendGoal_Response):
                 "The 'accepted' field must be of type 'bool'"
         self._accepted = value
 
-    @builtins.property
+    @property
     def stamp(self):
         """Message field 'stamp'."""
         return self._stamp
@@ -718,9 +695,6 @@ class Patrol_SendGoal(metaclass=Metaclass_Patrol_SendGoal):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -831,7 +805,7 @@ class Patrol_GetResult_Request(metaclass=Metaclass_Patrol_GetResult_Request):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
@@ -847,9 +821,6 @@ class Patrol_GetResult_Request(metaclass=Metaclass_Patrol_GetResult_Request):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -966,7 +937,7 @@ class Patrol_GetResult_Response(metaclass=Metaclass_Patrol_GetResult_Response):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def status(self):
         """Message field 'status'."""
         return self._status
@@ -981,7 +952,7 @@ class Patrol_GetResult_Response(metaclass=Metaclass_Patrol_GetResult_Response):
                 "The 'status' field must be an integer in [-128, 127]"
         self._status = value
 
-    @builtins.property
+    @property
     def result(self):
         """Message field 'result'."""
         return self._result
@@ -1033,9 +1004,6 @@ class Patrol_GetResult(metaclass=Metaclass_Patrol_GetResult):
 
 
 # Import statements for member types
-
-# already imported above
-# import builtins
 
 # already imported above
 # import rosidl_parser.definition
@@ -1157,7 +1125,7 @@ class Patrol_FeedbackMessage(metaclass=Metaclass_Patrol_FeedbackMessage):
         from copy import copy
         return copy(cls._fields_and_field_types)
 
-    @builtins.property
+    @property
     def goal_id(self):
         """Message field 'goal_id'."""
         return self._goal_id
@@ -1171,7 +1139,7 @@ class Patrol_FeedbackMessage(metaclass=Metaclass_Patrol_FeedbackMessage):
                 "The 'goal_id' field must be a sub message of type 'UUID'"
         self._goal_id = value
 
-    @builtins.property
+    @property
     def feedback(self):
         """Message field 'feedback'."""
         return self._feedback

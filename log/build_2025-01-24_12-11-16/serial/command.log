@@ -1,0 +1,6 @@
+Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake /home/hyoin/service/src/serial -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/hyoin/service/install/serial
+Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --install /home/hyoin/service/build/serial
+Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --install /home/hyoin/service/build/serial

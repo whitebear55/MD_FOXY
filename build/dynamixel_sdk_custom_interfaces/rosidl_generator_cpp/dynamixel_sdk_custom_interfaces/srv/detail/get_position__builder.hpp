@@ -5,11 +5,10 @@
 #ifndef DYNAMIXEL_SDK_CUSTOM_INTERFACES__SRV__DETAIL__GET_POSITION__BUILDER_HPP_
 #define DYNAMIXEL_SDK_CUSTOM_INTERFACES__SRV__DETAIL__GET_POSITION__BUILDER_HPP_
 
+#include "dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp"
+#include <rosidl_runtime_cpp/message_initialization.hpp>
 #include <algorithm>
 #include <utility>
-
-#include "dynamixel_sdk_custom_interfaces/srv/detail/get_position__struct.hpp"
-#include "rosidl_runtime_cpp/message_initialization.hpp"
 
 
 namespace dynamixel_sdk_custom_interfaces

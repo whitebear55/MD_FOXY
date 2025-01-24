@@ -319,14 +319,14 @@ ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3
 # install(FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/turtlebot3_navigation2" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
-ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
+ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
 
 # install(FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_navigation2/environment")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/turtlebot3_navigation2/environment")
 
-# install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
-ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
+# install(FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
+ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/opt/ros/foxy/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/turtlebot3_navigation2/environment")
 
 # install(FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_navigation2/environment")
 ament_cmake_symlink_install_files("/home/hyoin/service/src/turtlebot3/turtlebot3_navigation2" FILES "/home/hyoin/service/build/turtlebot3_navigation2/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/turtlebot3_navigation2/environment")

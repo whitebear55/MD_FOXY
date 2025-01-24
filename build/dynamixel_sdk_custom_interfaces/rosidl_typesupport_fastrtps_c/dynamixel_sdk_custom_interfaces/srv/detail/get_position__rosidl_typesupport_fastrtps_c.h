@@ -23,7 +23,6 @@ size_t get_serialized_size_dynamixel_sdk_custom_interfaces__srv__GetPosition_Req
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
 size_t max_serialized_size_dynamixel_sdk_custom_interfaces__srv__GetPosition_Request(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
@@ -56,7 +55,6 @@ size_t get_serialized_size_dynamixel_sdk_custom_interfaces__srv__GetPosition_Res
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces
 size_t max_serialized_size_dynamixel_sdk_custom_interfaces__srv__GetPosition_Response(
   bool & full_bounded,
-  bool & is_plain,
   size_t current_alignment);
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_dynamixel_sdk_custom_interfaces

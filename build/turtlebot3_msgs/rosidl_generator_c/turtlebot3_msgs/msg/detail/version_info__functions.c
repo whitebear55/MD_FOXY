@@ -256,27 +256,22 @@ turtlebot3_msgs__msg__VersionInfo__Sequence__copy(
   if (output->capacity < input->size) {
     const size_t allocation_size =
       input->size * sizeof(turtlebot3_msgs__msg__VersionInfo);
-    rcutils_allocator_t allocator = rcutils_get_default_allocator();
     turtlebot3_msgs__msg__VersionInfo * data =
-      (turtlebot3_msgs__msg__VersionInfo *)allocator.reallocate(
-      output->data, allocation_size, allocator.state);
+      (turtlebot3_msgs__msg__VersionInfo *)realloc(output->data, allocation_size);
     if (!data) {
       return false;
     }
-    // If reallocation succeeded, memory may or may not have been moved
-    // to fulfill the allocation request, invalidating output->data.
-    output->data = data;
     for (size_t i = output->capacity; i < input->size; ++i) {
-      if (!turtlebot3_msgs__msg__VersionInfo__init(&output->data[i])) {
-        // If initialization of any new item fails, roll back
-        // all previously initialized items. Existing items
-        // in output are to be left unmodified.
+      if (!turtlebot3_msgs__msg__VersionInfo__init(&data[i])) {
+        /* free currently allocated and return false */
         for (; i-- > output->capacity; ) {
-          turtlebot3_msgs__msg__VersionInfo__fini(&output->data[i]);
+          turtlebot3_msgs__msg__VersionInfo__fini(&data[i]);
         }
+        free(data);
         return false;
       }
     }
+    output->data = data;
     output->capacity = input->size;
   }
   output->size = input->size;

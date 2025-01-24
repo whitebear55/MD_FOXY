@@ -17,7 +17,7 @@ extern "C"
 
 // Constants defined in the message
 
-/// Struct defined in srv/Dqn in the package turtlebot3_msgs.
+// Struct defined in srv/Dqn in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__srv__Dqn_Request
 {
   uint8_t action;
@@ -41,7 +41,7 @@ typedef struct turtlebot3_msgs__srv__Dqn_Request__Sequence
 // Member 'state'
 #include "rosidl_runtime_c/primitives_sequence.h"
 
-/// Struct defined in srv/Dqn in the package turtlebot3_msgs.
+// Struct defined in srv/Dqn in the package turtlebot3_msgs.
 typedef struct turtlebot3_msgs__srv__Dqn_Response
 {
   rosidl_runtime_c__float__Sequence state;

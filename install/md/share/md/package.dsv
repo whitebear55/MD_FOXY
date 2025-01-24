@@ -4,6 +4,9 @@ source;share/md/hook/cmake_prefix_path.sh
 source;share/md/hook/ld_library_path_lib.ps1
 source;share/md/hook/ld_library_path_lib.dsv
 source;share/md/hook/ld_library_path_lib.sh
+source;share/md/hook/pythonpath.ps1
+source;share/md/hook/pythonpath.dsv
+source;share/md/hook/pythonpath.sh
 source;share/md/local_setup.bash
 source;share/md/local_setup.dsv
 source;share/md/local_setup.ps1

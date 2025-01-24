@@ -17,7 +17,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_init_function(
+void Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -26,12 +26,12 @@ void turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_
   turtlebot3_msgs__srv__Dqn_Request__init(message_memory);
 }
 
-void turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_fini_function(void * message_memory)
+void Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_fini_function(void * message_memory)
 {
   turtlebot3_msgs__srv__Dqn_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_member_array[2] = {
   {
     "action",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_UINT8,  // type
@@ -45,8 +45,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__D
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -62,38 +60,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__D
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_members = {
   "turtlebot3_msgs__srv",  // message namespace
   "Dqn_Request",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__srv__Dqn_Request),
-  turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_member_array,  // message members
-  turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_fini_function  // function to terminate message instance (will not free memory)
+  Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_member_array,  // message members
+  Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle = {
+static rosidl_message_type_support_t Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_members,
+  &Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, srv, Dqn_Request)() {
-  if (!turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle.typesupport_identifier =
+  if (!Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle.typesupport_identifier) {
+    Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__srv__Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle;
+  return &Dqn_Request__rosidl_typesupport_introspection_c__Dqn_Request_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -126,7 +122,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_init_function(
+void Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -135,67 +131,12 @@ void turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn
   turtlebot3_msgs__srv__Dqn_Response__init(message_memory);
 }
 
-void turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_fini_function(void * message_memory)
+void Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_fini_function(void * message_memory)
 {
   turtlebot3_msgs__srv__Dqn_Response__fini(message_memory);
 }
 
-size_t turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__size_function__Dqn_Response__state(
-  const void * untyped_member)
-{
-  const rosidl_runtime_c__float__Sequence * member =
-    (const rosidl_runtime_c__float__Sequence *)(untyped_member);
-  return member->size;
-}
-
-const void * turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_const_function__Dqn_Response__state(
-  const void * untyped_member, size_t index)
-{
-  const rosidl_runtime_c__float__Sequence * member =
-    (const rosidl_runtime_c__float__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void * turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_function__Dqn_Response__state(
-  void * untyped_member, size_t index)
-{
-  rosidl_runtime_c__float__Sequence * member =
-    (rosidl_runtime_c__float__Sequence *)(untyped_member);
-  return &member->data[index];
-}
-
-void turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__fetch_function__Dqn_Response__state(
-  const void * untyped_member, size_t index, void * untyped_value)
-{
-  const float * item =
-    ((const float *)
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_const_function__Dqn_Response__state(untyped_member, index));
-  float * value =
-    (float *)(untyped_value);
-  *value = *item;
-}
-
-void turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__assign_function__Dqn_Response__state(
-  void * untyped_member, size_t index, const void * untyped_value)
-{
-  float * item =
-    ((float *)
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_function__Dqn_Response__state(untyped_member, index));
-  const float * value =
-    (const float *)(untyped_value);
-  *item = *value;
-}
-
-bool turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__resize_function__Dqn_Response__state(
-  void * untyped_member, size_t size)
-{
-  rosidl_runtime_c__float__Sequence * member =
-    (rosidl_runtime_c__float__Sequence *)(untyped_member);
-  rosidl_runtime_c__float__Sequence__fini(member);
-  return rosidl_runtime_c__float__Sequence__init(member, size);
-}
-
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_member_array[3] = {
+static rosidl_typesupport_introspection_c__MessageMember Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_member_array[3] = {
   {
     "state",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -206,12 +147,10 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__D
     false,  // is upper bound
     offsetof(turtlebot3_msgs__srv__Dqn_Response, state),  // bytes offset in struct
     NULL,  // default value
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__size_function__Dqn_Response__state,  // size() function pointer
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_const_function__Dqn_Response__state,  // get_const(index) function pointer
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__get_function__Dqn_Response__state,  // get(index) function pointer
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__fetch_function__Dqn_Response__state,  // fetch(index, &value) function pointer
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__assign_function__Dqn_Response__state,  // assign(index, value) function pointer
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__resize_function__Dqn_Response__state  // resize(index) function pointer
+    NULL,  // size() function pointer
+    NULL,  // get_const(index) function pointer
+    NULL,  // get(index) function pointer
+    NULL  // resize(index) function pointer
   },
   {
     "reward",  // name
@@ -226,8 +165,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__D
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -243,38 +180,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__srv__D
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_members = {
   "turtlebot3_msgs__srv",  // message namespace
   "Dqn_Response",  // message name
   3,  // number of fields
   sizeof(turtlebot3_msgs__srv__Dqn_Response),
-  turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_member_array,  // message members
-  turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_fini_function  // function to terminate message instance (will not free memory)
+  Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_member_array,  // message members
+  Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle = {
+static rosidl_message_type_support_t Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_members,
+  &Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, srv, Dqn_Response)() {
-  if (!turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle.typesupport_identifier =
+  if (!Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle.typesupport_identifier) {
+    Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__srv__Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle;
+  return &Dqn_Response__rosidl_typesupport_introspection_c__Dqn_Response_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

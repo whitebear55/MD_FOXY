@@ -17,7 +17,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_init_function(
+void Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -26,12 +26,12 @@ void turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__P
   turtlebot3_msgs__action__Patrol_Goal__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_fini_function(void * message_memory)
+void Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_Goal__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_member_array[1] = {
   {
     "radius",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -45,38 +45,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_Goal",  // message name
   1,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_Goal),
-  turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_member_array,  // message members
+  Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_members,
+  &Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Goal)() {
-  if (!turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle.typesupport_identifier) {
+    Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle;
+  return &Patrol_Goal__rosidl_typesupport_introspection_c__Patrol_Goal_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -105,7 +103,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_init_function(
+void Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -114,12 +112,12 @@ void turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c_
   turtlebot3_msgs__action__Patrol_Result__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_fini_function(void * message_memory)
+void Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_Result__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_member_array[1] = {
   {
     "success",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -133,38 +131,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_Result",  // message name
   1,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_Result),
-  turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_member_array,  // message members
+  Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_members,
+  &Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Result)() {
-  if (!turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle.typesupport_identifier) {
+    Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle;
+  return &Patrol_Result__rosidl_typesupport_introspection_c__Patrol_Result_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -193,7 +189,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_init_function(
+void Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -202,12 +198,12 @@ void turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_
   turtlebot3_msgs__action__Patrol_Feedback__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_fini_function(void * message_memory)
+void Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_Feedback__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_member_array[1] = {
   {
     "left_time",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
@@ -221,38 +217,36 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_Feedback",  // message name
   1,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_Feedback),
-  turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_member_array,  // message members
+  Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_members,
+  &Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Feedback)() {
-  if (!turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle.typesupport_identifier) {
+    Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle;
+  return &Patrol_Feedback__rosidl_typesupport_introspection_c__Patrol_Feedback_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -292,7 +286,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_init_function(
+void Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -301,12 +295,12 @@ void turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_intros
   turtlebot3_msgs__action__Patrol_SendGoal_Request__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_fini_function(void * message_memory)
+void Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_SendGoal_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[2] = {
   {
     "goal_id",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -320,8 +314,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -337,42 +329,40 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_SendGoal_Request",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_SendGoal_Request),
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array,  // message members
+  Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_members,
+  &Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_SendGoal_Request)() {
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[0].members_ =
+  Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[0].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, unique_identifier_msgs, msg, UUID)();
-  turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[1].members_ =
+  Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Goal)();
-  if (!turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle.typesupport_identifier) {
+    Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle;
+  return &Patrol_SendGoal_Request__rosidl_typesupport_introspection_c__Patrol_SendGoal_Request_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -407,7 +397,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_init_function(
+void Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -416,12 +406,12 @@ void turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_intro
   turtlebot3_msgs__action__Patrol_SendGoal_Response__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_fini_function(void * message_memory)
+void Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_SendGoal_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array[2] = {
   {
     "accepted",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_BOOLEAN,  // type
@@ -435,8 +425,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -452,40 +440,38 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_SendGoal_Response",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_SendGoal_Response),
-  turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array,  // message members
+  Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_members,
+  &Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_SendGoal_Response)() {
-  turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array[1].members_ =
+  Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, builtin_interfaces, msg, Time)();
-  if (!turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle.typesupport_identifier) {
+    Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle;
+  return &Patrol_SendGoal_Response__rosidl_typesupport_introspection_c__Patrol_SendGoal_Response_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -579,7 +565,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_init_function(
+void Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -588,12 +574,12 @@ void turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_intro
   turtlebot3_msgs__action__Patrol_GetResult_Request__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_fini_function(void * message_memory)
+void Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_GetResult_Request__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array[1] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array[1] = {
   {
     "goal_id",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -607,40 +593,38 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_GetResult_Request",  // message name
   1,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_GetResult_Request),
-  turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array,  // message members
+  Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_members,
+  &Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_GetResult_Request)() {
-  turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array[0].members_ =
+  Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_member_array[0].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, unique_identifier_msgs, msg, UUID)();
-  if (!turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle.typesupport_identifier) {
+    Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle;
+  return &Patrol_GetResult_Request__rosidl_typesupport_introspection_c__Patrol_GetResult_Request_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -677,7 +661,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_init_function(
+void Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -686,12 +670,12 @@ void turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_intr
   turtlebot3_msgs__action__Patrol_GetResult_Response__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_fini_function(void * message_memory)
+void Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_GetResult_Response__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array[2] = {
   {
     "status",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_INT8,  // type
@@ -705,8 +689,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -722,40 +704,38 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_GetResult_Response",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_GetResult_Response),
-  turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array,  // message members
+  Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_members,
+  &Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_GetResult_Response)() {
-  turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array[1].members_ =
+  Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Result)();
-  if (!turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle.typesupport_identifier) {
+    Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle;
+  return &Patrol_GetResult_Response__rosidl_typesupport_introspection_c__Patrol_GetResult_Response_message_type_support_handle;
 }
 #ifdef __cplusplus
 }
@@ -857,7 +837,7 @@ extern "C"
 {
 #endif
 
-void turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_init_function(
+void Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_init_function(
   void * message_memory, enum rosidl_runtime_c__message_initialization _init)
 {
   // TODO(karsten1987): initializers are not yet implemented for typesupport c
@@ -866,12 +846,12 @@ void turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introsp
   turtlebot3_msgs__action__Patrol_FeedbackMessage__init(message_memory);
 }
 
-void turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_fini_function(void * message_memory)
+void Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_fini_function(void * message_memory)
 {
   turtlebot3_msgs__action__Patrol_FeedbackMessage__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[2] = {
+static rosidl_typesupport_introspection_c__MessageMember Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[2] = {
   {
     "goal_id",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -885,8 +865,6 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   },
   {
@@ -902,42 +880,40 @@ static rosidl_typesupport_introspection_c__MessageMember turtlebot3_msgs__action
     NULL,  // size() function pointer
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
-    NULL,  // fetch(index, &value) function pointer
-    NULL,  // assign(index, value) function pointer
     NULL  // resize(index) function pointer
   }
 };
 
-static const rosidl_typesupport_introspection_c__MessageMembers turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_members = {
+static const rosidl_typesupport_introspection_c__MessageMembers Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_members = {
   "turtlebot3_msgs__action",  // message namespace
   "Patrol_FeedbackMessage",  // message name
   2,  // number of fields
   sizeof(turtlebot3_msgs__action__Patrol_FeedbackMessage),
-  turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array,  // message members
-  turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_init_function,  // function to initialize message memory (memory has to be allocated)
-  turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_fini_function  // function to terminate message instance (will not free memory)
+  Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array,  // message members
+  Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_init_function,  // function to initialize message memory (memory has to be allocated)
+  Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_fini_function  // function to terminate message instance (will not free memory)
 };
 
 // this is not const since it must be initialized on first access
 // since C does not allow non-integral compile-time constants
-static rosidl_message_type_support_t turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle = {
+static rosidl_message_type_support_t Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle = {
   0,
-  &turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_members,
+  &Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_members,
   get_message_typesupport_handle_function,
 };
 
 ROSIDL_TYPESUPPORT_INTROSPECTION_C_EXPORT_turtlebot3_msgs
 const rosidl_message_type_support_t *
 ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_FeedbackMessage)() {
-  turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[0].members_ =
+  Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[0].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, unique_identifier_msgs, msg, UUID)();
-  turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[1].members_ =
+  Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_member_array[1].members_ =
     ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_introspection_c, turtlebot3_msgs, action, Patrol_Feedback)();
-  if (!turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle.typesupport_identifier) {
-    turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle.typesupport_identifier =
+  if (!Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle.typesupport_identifier) {
+    Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle.typesupport_identifier =
       rosidl_typesupport_introspection_c__identifier;
   }
-  return &turtlebot3_msgs__action__Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle;
+  return &Patrol_FeedbackMessage__rosidl_typesupport_introspection_c__Patrol_FeedbackMessage_message_type_support_handle;
 }
 #ifdef __cplusplus
 }

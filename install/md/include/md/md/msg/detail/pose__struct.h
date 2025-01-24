@@ -1,1 +1,0 @@
-/home/hyoin/service/build/md/rosidl_generator_c/md/msg/detail/pose__struct.h

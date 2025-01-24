@@ -1,16 +1,18 @@
-
-# Consider dependencies only in project.
-set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
-
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
+  "CXX"
   )
+# The set of files for implicit dependencies of each language:
+set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/hyoin/service/src/serial/src/impl/list_ports/list_ports_linux.cc" "/home/hyoin/service/build/serial/CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o"
+  "/home/hyoin/service/src/serial/src/impl/unix.cc" "/home/hyoin/service/build/serial/CMakeFiles/serial.dir/src/impl/unix.cc.o"
+  "/home/hyoin/service/src/serial/src/serial.cc" "/home/hyoin/service/build/serial/CMakeFiles/serial.dir/src/serial.cc.o"
+  )
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
-# The set of dependency files which are needed:
-set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/hyoin/service/src/serial/src/impl/list_ports/list_ports_linux.cc" "CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o" "gcc" "CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o.d"
-  "/home/hyoin/service/src/serial/src/impl/unix.cc" "CMakeFiles/serial.dir/src/impl/unix.cc.o" "gcc" "CMakeFiles/serial.dir/src/impl/unix.cc.o.d"
-  "/home/hyoin/service/src/serial/src/serial.cc" "CMakeFiles/serial.dir/src/serial.cc.o" "gcc" "CMakeFiles/serial.dir/src/serial.cc.o.d"
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/hyoin/service/src/serial/include"
   )
 
 # Targets to which this target links.

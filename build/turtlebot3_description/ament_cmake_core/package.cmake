@@ -1,5 +1,5 @@
 set(_AMENT_PACKAGE_NAME "turtlebot3_description")
-set(turtlebot3_description_VERSION "2.1.5")
+set(turtlebot3_description_VERSION "2.1.4")
 set(turtlebot3_description_MAINTAINER "Will Son <willson@robotis.com>")
 set(turtlebot3_description_BUILD_DEPENDS "urdf")
 set(turtlebot3_description_BUILDTOOL_DEPENDS "ament_cmake")

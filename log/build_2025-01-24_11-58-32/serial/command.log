@@ -1,0 +1,4 @@
+Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --build /home/hyoin/service/build/serial -- -j8 -l8
+Invoking command in '/home/hyoin/service/build/serial': /usr/bin/cmake --install /home/hyoin/service/build/serial
+Invoked command in '/home/hyoin/service/build/serial' returned '0': /usr/bin/cmake --install /home/hyoin/service/build/serial
